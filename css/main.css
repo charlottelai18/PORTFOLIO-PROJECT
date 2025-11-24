@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0F172A;
+  background: #FCE7F3;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.hero__button {
+  background: #FDA4AF;
+  padding: 0.8rem 1.6rem;
+  border-radius: 50px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 2rem;
+}
+.hero__title {
+  font-size: 2.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
