@@ -20,4 +20,10 @@
     border-radius: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__link i {
+    color: $pink-light;
 }
