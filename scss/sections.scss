@@ -1,5 +1,9 @@
-section{
+section .skills{
     padding: 20rem 2rem;
+}
+
+section {
+    padding: 20rem;
 }
 
 // ==== HERO SECTION ===
@@ -27,7 +31,6 @@ section{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-
     position: fixed;
     top: 0%;
     width: 100%;
@@ -44,15 +47,12 @@ section{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-
     display: flex;                
     align-items: center;
     justify-content: center;
-
     border: 3px solid rgb(246, 246, 246);
     border-radius: 16px;            
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-
     background-color: rgba(255, 255, 255, 0.3);   
     transition: 0.2s ease;
 }
@@ -84,15 +84,12 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 100px;  
   border: 3px solid your-pink;  
   border-radius: 16px;
-
   font-size: 1.1rem;
   font-weight: 600;
   color: your-purple;
-
   background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: 0.2s ease;
@@ -102,4 +99,31 @@ section{
   background-color: rgb(250, 205, 223); 
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+// ==== PROJECTS SECTION ====
+.projects__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;    
+  padding-top: 20px;     
+}
+
+.projects__card {
+  display: flex;     
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.4); 
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-align: left;
+}
+
+.projects__card:hover {
+  background-color: rgb(253, 232, 240); 
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease;
 }
