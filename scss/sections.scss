@@ -2,6 +2,7 @@ section{
     padding: 20rem 2rem;
 }
 
+// ==== HERO SECTION ===
 .hero{
     display: flex;
     flex-direction: row;
@@ -19,6 +20,8 @@ section{
     border-radius: 40px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+
+// ===== NAVBAR =====
 
 .navbar {
     display: flex;
@@ -63,4 +66,40 @@ section{
 .navbar__link i {
     font-size: 1.3rem;
     color: #4A107D;   
+}
+
+
+// ==== SKILLS SECTION ====
+
+.skills__grid {
+  display: grid;  
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;  
+  max-width: 800px;   
+  margin: 0 auto;    
+  padding-top: 2rem; 
+}
+
+.skills__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100px;  
+  border: 3px solid your-pink;  
+  border-radius: 16px;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: your-purple;
+
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.2s ease;
+}
+
+.skills__item:hover {
+  background-color: rgb(250, 205, 223); 
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }

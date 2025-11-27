@@ -6,12 +6,16 @@
         <title>Charlotte Lai | Portfolio</title>
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- ===== NAVBAR ===== -->
         <nav class="navbar">
             <div class="navbar__links">
-                <a href="#home" class="navbar__link"><i class="fa-solid fa-house"></i></a>
+                <a href="#hero" class="navbar__link"><i class="fa-solid fa-house"></i></a>
                 <a href="#skills" class="navbar__link"><i class="fa-solid fa-code"></i></a>
                 <a href="#projects" class="navbar__link"><i class="fa-solid fa-folder"></i></a>
                 <a href="#contact" class="navbar__link"><i class="fa-solid fa-user"></i></a>
@@ -19,9 +23,9 @@
         </nav>
 
         <!-- ===== HERO ===== -->
-        <header class="hero">
+        <header class="hero" id="hero">
             <div class="hero__content">
-                <h1 class="hero__title">Hey, I’m Charlotte</h1>
+                <h1 class="hero__title">Hey, I'm Charlotte</h1>
                 <p class="hero__subtitle">Aspiring Front-End Developer & Designer</p>
                 <a href="#projects" class="hero__button">View My Work</a>
             </div>
@@ -42,18 +46,19 @@
             </div>
         </section>-->
 
-        <!-- ===== TECH STACK ===== -->
-        <section class="tech" id="skills">
-            <h2 class="tech__title">Tools I Work With</h2>
-            <p class="tech__subtitle">Building cute, clean and reliable user experiences</p>
+        <!-- ===== SKILLS ===== -->
+        <section class="skills" id="skills">
+            <h2 class="skills__title">Tools I Work With</h2>
+            <p class="skills__subtitle">Building cute, clean and reliable user experiences.</p>
 
-            <div class="tech__grid">
-                <div class="tech__item">HTML</div>
-                <div class="tech__item">CSS</div>
-                <div class="tech__item">JavaScript</div>
-                <div class="tech__item">React</div>
-                <div class="tech__item">SCSS</div>
-                <div class="tech__item">Git</div>
+            <div class="skills__grid">
+                <div class="skills__item">HTML</div>
+                <div class="skills__item">CSS</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">React</div>
+                <div class="skills__item">SCSS</div>
+                <div class="skills__item">Java</div>
+                <div class="skills__item">Git</div>
             </div>
         </section>
 
@@ -64,7 +69,7 @@
             <div class="projects__grid">
                 <div class="projects__card">
                     <h3 class="projects__card-title">Project Title</h3>
-                    <p class="projects__card-text">Short description of your project.</p>
+                    <p class="projects__card-text">PROJECT DESCRIPTION.</p>
                     <a href="#" class="projects__card-button">Live Demo</a>
                 </div>
             </div>
