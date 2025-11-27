@@ -30,6 +30,13 @@ section {
   font-weight: 600;
 }
 
+.hero__image {
+  width: 300px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 .hero {
   display: flex;
   align-items: center;
