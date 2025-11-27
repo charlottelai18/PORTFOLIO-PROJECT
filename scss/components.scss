@@ -8,6 +8,13 @@
     font-weight: 600;
 }
 
+.hero__button:hover {
+    background-color: rgb(250, 205, 223);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease;
+}
+
 .hero__image{
     width: 300px;
     border-radius: 50%;

@@ -7,7 +7,7 @@
 body {
   font-family: "Inter", sans-serif;
   color: #0F172A;
-  background: #FCE7F3;
+  background: linear-gradient(135deg, #FCE7F3 0%, #F9C5D1 50%, #FDE9F3 100%);
   line-height: 1.6;
 }
 
@@ -30,6 +30,13 @@ section {
   font-weight: 600;
 }
 
+.hero__button:hover {
+  background-color: rgb(250, 205, 223);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
 .hero__image {
   width: 300px;
   border-radius: 50%;
@@ -39,12 +46,54 @@ section {
 
 .hero {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  padding: 5rem 2rem;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 0 1.5rem;
+  gap: 10rem;
 }
-.hero__title {
-  font-size: 2.5rem;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar__link {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(237, 141, 226);
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.2s ease;
+}
+
+.navbar__link:hover {
+  background-color: rgb(250, 205, 223);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__link i {
+  font-size: 1.3rem;
+  color: #4A107D;
 }
 
 /*# sourceMappingURL=main.css.map */
