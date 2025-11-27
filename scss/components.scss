@@ -24,6 +24,11 @@
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
 }
 
+.hero__image:hover {
+    transform: scale(1.05);
+    transition: 0.6s ease;
+}
+
 .projects__image{
     height: 300px;
     border-radius: 20px;

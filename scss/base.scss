@@ -14,3 +14,12 @@ body {
 h1, h2, h3 {
     font-family: $font-heading;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+    padding: $section-padding;
+    text-align: center;
+}
