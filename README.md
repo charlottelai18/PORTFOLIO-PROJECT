@@ -13,5 +13,4 @@ I built this portfolio as part of the _nology training program, using the tools 
 - **HTML5**
 - **SCSS / CSS3**
 - **Git + GitHub**
-- **Chrome Extensions (for showcased projects)**
 
