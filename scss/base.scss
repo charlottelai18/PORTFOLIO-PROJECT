@@ -7,7 +7,11 @@
 body {
     font-family: $font-main;
     color: $text-dark;
-    background: linear-gradient(135deg, #FCE7F3 0%, #F9C5D1 50%, #FDE9F3 100%);
+    background: radial-gradient(circle at 20% 30%, #ffd1e8 0%, transparent 60%),
+    radial-gradient(circle at 80% 20%, #d9e7ff 0%, transparent 60%),
+    radial-gradient(circle at 60% 80%, #ffe9c5 0%, transparent 60%),
+    radial-gradient(circle at 30% 70%, #e4d4ff 0%, transparent 60%),
+    linear-gradient(135deg, #ffe3f0, #e3f0ff);
     line-height: 1.6;
 }
 
