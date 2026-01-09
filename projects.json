@@ -1,0 +1,26 @@
+[
+  {
+    "title": "LumiTab – Chrome Extension",
+    "image": "./img/lumitab.png",
+    "description": "A productivity-focused Chrome new tab extension with a to-do list, timer, and calming visuals.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "live": "https://github.com/charlottelai18/LumiTab",
+    "github": "https://github.com/charlottelai18/LumiTab"
+  },
+  {
+    "title": "Chef Claude – AI Recipe Generator",
+    "image": "./img/claude.png",
+    "description": "An AI recipe generator that creates personalized recipes based on user-inputted ingredients.",
+    "tags": ["React", "Node.js", "Claude API"],
+    "live": "https://chef-claude-kitchen.netlify.app/",
+    "github": "https://github.com/charlottelai18/Chef-Claude"
+  },
+  {
+    "title": "Interactive To Do List",
+    "image": "./img/to-do.png",
+    "description": "A simple and aesthetically pleasing to-do list application with sound effects for task completion.",
+    "tags": ["Javascript", "HTML", "CSS"],
+    "live": "https://github.com/charlottelai18/TO-DO-LIST",
+    "github": "https://github.com/charlottelai18/TO-DO-LIST"
+  }
+]
