@@ -22,5 +22,13 @@
     "tags": ["Javascript", "HTML", "CSS"],
     "live": "https://github.com/charlottelai18/TO-DO-LIST",
     "github": "https://github.com/charlottelai18/TO-DO-LIST"
+  },
+  {
+    "title": "Hangman Game",
+    "image": "./img/hangman.png",
+    "description": "A simple hangman game",
+    "tags": ["Javascript", "HTML", "SCSS"],
+    "live": "https://charlotte-hangman.netlify.app/",
+    "github": "https://github.com/charlottelai18/HANGMAN-2"
   }
 ]
