@@ -12,28 +12,31 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     </head>
+
     <body>
         <!-- ===== NAVBAR ===== -->
         <nav class="navbar">
             <div class="navbar__links">
-                <a href="#hero" class="navbar__link"><i class="fa-solid fa-house"></i></a>
-                <a href="#skills" class="navbar__link"><i class="fa-solid fa-code"></i></a>
-                <a href="#projects" class="navbar__link"><i class="fa-solid fa-folder"></i></a>
-                <a href="#contact" class="navbar__link"><i class="fa-solid fa-user"></i></a>
+                <a href="#hero" class="navbar__link"><i class="fa-solid fa-house navbar__icon"></i></a>
+                <a href="#skills" class="navbar__link"><i class="fa-solid fa-code navbar__icon"></i></a>
+                <a href="#projects" class="navbar__link"><i class="fa-solid fa-folder navbar__icon"></i></a>
+                <a href="#contact" class="navbar__link"><i class="fa-solid fa-user navbar__icon"></i></a>
             </div>
         </nav>
 
         <!-- ===== HERO ===== -->
         <header class="hero" id="hero">
             <div class="hero__content">
-                <h1 class="hero__title">Hey, I'm Charlotte</h1>
-                <p class="hero__subtitle">Aspiring Front-End Developer & Designer</p>
+                <i class="fa-solid fa-code fa-3x code__icon"></i>
+                <h1 class="hero__title">Charlotte Lai</h1>
+                <p class="hero__subtitle">Aspiring Front-End Developer & Creative Problem Solver</p>
+                <p class="hero__description">Passionate about building beautiful, functional web experiences that make a difference.</p>
                 <a href="#projects" class="hero__button">View My Work</a>
             </div>
 
-            <div class="hero__image-wrapper">
+            <!--<div class="hero__image-wrapper">
                 <img src="./img/portrait.png" alt="Charlotte" class="hero__image" />
-            </div>
+            </div>-->
         </header>
 
         <!-- ===== ABOUT ===== -->
@@ -41,9 +44,24 @@
             <div class="about__container">
                 <h2 class="about__title">About Me</h2>
                 <p class="about__text">
-                    I’m a passionate developer who enjoys building engaging, user-friendly websites. 
-                    I love blending design with clean code to create memorable digital experiences.
+                    Hi! I’m a passionate developer who enjoys building engaging, user-friendly websites. 
+                    I love blending design with clean code to create memorable digital experiences. I've worked on
+                    small projects ranging from small websites to productivity applications. 
                 </p>
+
+                <br>
+                
+                <p class="about__text">
+                    My approach combines expertise with creative problem-solving ensuring that every project
+                    I work on is not only functional but beautiful and user-friendly. I believe in writing
+                    clean, maintainable code and staying up-to-date with the latest industry trends.
+                </p>
+
+                <div class="passions__grid">
+                    <div>
+                        <p>Fueled by matcha and curiosity</p>
+                    </div>
+                </div>
             </div>
         </section>
 

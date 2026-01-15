@@ -15,21 +15,28 @@ section {
     min-height: 80vh;
     text-align: center;
     padding: 20rem 1.5rem;
-    gap: 10rem;
 }
 
-.hero__content {
-    background: linear-gradient(135deg, #FCE7F3 0%, #fddff0 50%, #FDE9F3 100%);
-    padding: 5rem;
-    border-radius: 40px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+.code__icon{
+  color: rgb(243, 170, 188);
 }
 
-.hero__content:hover {
-    background-color: rgb(250, 205, 223);
-    transform: translate(6px, -6px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: 0.5s ease;
+.hero__title{
+  font-size: 5rem;
+  background-image: linear-gradient(to right, rgb(246, 110, 144), rgb(243, 170, 188), rgb(246, 110, 144));
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.hero__subtitle{
+  font-size: 2rem;
+}
+
+.hero__description{
+  font-size: 1rem;
 }
 
 // ===== NAVBAR =====
@@ -71,11 +78,40 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.navbar__link i {
-    font-size: 1.3rem;
-    color: #4A107D;   
+// === ABOUT ME SECTION === 
+.about__title{
+  font-size: 3rem;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 800px;
+  min-height: 400px;
+
+  margin: 0 auto;
+
+  opacity: 0.75;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+
+  padding: 4rem 3rem;
+  text-align: left;
+}
+
+.about__text{
+  font-size: 1.15rem;
+  padding-top: 1.15rem;
+}
 
 // ==== SKILLS SECTION ====
 

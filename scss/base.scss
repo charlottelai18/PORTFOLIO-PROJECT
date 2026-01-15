@@ -1,3 +1,5 @@
+@use 'variables';
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +7,8 @@
 }
 
 body {
-    font-family: $font-main;
-    color: $text-dark;
+    font-family: variables.$font-main;
+    color: rgb(74, 74, 74);
     background: radial-gradient(circle at 20% 30%, #ffd1e8 0%, transparent 60%),
     radial-gradient(circle at 80% 20%, #d9e7ff 0%, transparent 60%),
     radial-gradient(circle at 60% 80%, #ffe9c5 0%, transparent 60%),
@@ -16,7 +18,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: $font-heading;
+    font-family: variables.$font-heading;
 }
 
 html {
@@ -24,6 +26,6 @@ html {
 }
 
 section {
-    padding: $section-padding;
+    padding: variables.$section-padding;
     text-align: center;
 }

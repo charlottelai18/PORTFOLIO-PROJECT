@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(74, 74, 74);
+  background: radial-gradient(circle at 20% 30%, #ffd1e8 0%, transparent 60%), radial-gradient(circle at 80% 20%, #d9e7ff 0%, transparent 60%), radial-gradient(circle at 60% 80%, #ffe9c5 0%, transparent 60%), radial-gradient(circle at 30% 70%, #e4d4ff 0%, transparent 60%), linear-gradient(135deg, #ffe3f0, #e3f0ff);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=base.css.map */
