@@ -30,5 +30,14 @@
     "tags": ["Javascript", "HTML", "SCSS"],
     "live": "https://charlotte-hangman.netlify.app/",
     "github": "https://github.com/charlottelai18/HANGMAN-2"
+  },
+  {
+    "title": "Morse Code Translator",
+    "image": "./img/morse-code.png",
+    "description": "A Morse Code Translator with two modes from Morse to English and English to Morse.",
+    "tags": ["Javascript", "HTML", "SCSS"],
+    "live": "https://charlotte-morse-code.netlify.app/",
+    "github": "https://github.com/charlottelai18/MORSE-CODE-2"
   }
+
 ]
