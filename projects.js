@@ -17,7 +17,8 @@ fetch("./projects.json")
           <p class="projects__card-text">${project.description}</p>
 
           <div class="projects__tags">
-            ${project.tags.map(tag => `<span class="projects__tag">${tag}</span>`).join("")}
+            <br>
+            ${project.tags.map(tag => `<span class="projects__tag">${tag}</span>`).join(" | ")}
           </div>
 
           <div class="projects__links">
