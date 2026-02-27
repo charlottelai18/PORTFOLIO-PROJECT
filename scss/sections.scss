@@ -322,40 +322,76 @@
 // ===== CONTACT =====
 .contact {
   text-align: center;
-  padding: 6rem 2rem 8rem;
-}
-
-.contact__title {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact__list {
-  list-style: none;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 0;
-  margin-top: 2rem;
-}
-
-.contact__link {
-  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  padding: 12px 20px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 2px solid #eda2df;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+}
+
+.contact__subtitle {
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 16px rgba(244, 158, 179, 0.15);
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
   color: #4a0c7a;
-  font-weight: 600;
-  text-decoration: none;
+  outline: none;
+  transition: 0.2s ease;
+
+  &::placeholder {
+    color: rgba(147, 51, 234, 0.4);
+  }
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 20px rgba(244, 158, 179, 0.35);
+  }
+}
+
+.contact__textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact__submit {
+  padding: 14px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgb(246, 110, 144), rgb(250, 180, 200));
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(244, 158, 179, 0.4);
   transition: 0.2s ease;
 
   &:hover {
-    background-color: rgb(250, 205, 223);
-    transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(244, 158, 179, 0.5);
   }
+}
+.contact__socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 2rem;
 }

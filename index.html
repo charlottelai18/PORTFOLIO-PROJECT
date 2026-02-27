@@ -81,26 +81,25 @@
         <!-- ===== CONTACT ===== -->
         <section class="contact" id="contact">
             <h2 class="contact__title">Let's Connect</h2>
-            <ul class="contact__list">
-                <li class="contact__item">
-                    <a href="mailto:charlottel2015@gmail.com" class="contact__link">
-                        <i class="fa-solid fa-envelope"></i>
-                        Email Me
-                    </a>
-                </li>
-                <li class="contact__item">
-                    <a href="https://github.com/charlottelai18" target="_blank" class="contact__link">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-                </li>
-                <li class="contact__item">
-                    <a href="https://www.linkedin.com/in/charlotte-lai-386b86253/" target="_blank" class="contact__link">
-                        <i class="fa-brands fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                </li>
-            </ul>
+            <p class="contact__subtitle">Have a project in mind? I'd love to hear from you.</p>
+
+            <form class="contact__form" action="https://formspree.io/f/xdazlajk" method="POST">
+                <input type="text" name="name" placeholder="Your name" class="contact__input" required />
+                <input type="email" name="email" placeholder="Your email" class="contact__input" required />
+                <textarea name="message" placeholder="Your message" class="contact__input contact__textarea" rows="5" required></textarea>
+                <button type="submit" class="contact__submit">Send Message</button>
+            </form>
+
+            <div class="contact__socials">
+                <a href="https://github.com/charlottelai18" target="_blank" class="contact__link">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/charlotte-lai-386b86253/" target="_blank" class="contact__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
         </section>
 
     </body>
