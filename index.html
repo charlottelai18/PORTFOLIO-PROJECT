@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
         <link rel="icon" type="image/png" href="./img/favicon.png"/>
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -33,10 +32,6 @@
                 <p class="hero__description">Passionate about building beautiful, functional experiences that make a difference.</p>
                 <a href="#projects" class="hero__button">View My Work</a>
             </div>
-
-            <!--<div class="hero__image-wrapper">
-                <img src="./img/portrait.png" alt="Charlotte" class="hero__image" />
-            </div>-->
         </header>
 
         <!-- ===== ABOUT ===== -->
@@ -44,13 +39,11 @@
             <div class="about__container">
                 <h2 class="about__title">About Me</h2>
                 <p class="about__text">
-                    Hi! I’m a passionate developer who enjoys building engaging, user-friendly websites. 
+                    Hi! I'm a passionate developer who enjoys building engaging, user-friendly websites. 
                     I love blending design with clean code to create memorable digital experiences. I've worked on
                     small projects ranging from small websites to productivity applications. 
                 </p>
-
                 <br>
-                
                 <p class="about__text">
                     My approach combines expertise with creative problem-solving ensuring that every project
                     I work on is not only functional but beautiful and user-friendly. I believe in writing
@@ -63,7 +56,6 @@
         <section class="skills" id="skills">
             <h2 class="skills__title">Tools I Work With</h2>
             <p class="skills__subtitle">Building cute, clean and reliable user experiences.</p>
-
             <div class="skills__grid">
                 <div class="skills__item">HTML</div>
                 <div class="skills__item">CSS</div>
@@ -78,33 +70,34 @@
         <!-- ===== PROJECTS ===== -->
         <section class="projects" id="projects">
             <h2 class="projects__title">Projects</h2>
+
+            <!-- Filter buttons — populated by projects.js -->
+            <div class="projects__filters" id="projectFilters"></div>
+
+            <!-- Cards — populated by projects.js -->
             <div class="projects__grid" id="projectsGrid"></div>
         </section>
 
-
         <!-- ===== CONTACT ===== -->
         <section class="contact" id="contact">
-            <h2 class="contact__title">Let’s Connect</h2>
-
+            <h2 class="contact__title">Let's Connect</h2>
             <ul class="contact__list">
                 <li class="contact__item">
                     <a href="mailto:charlottel2015@gmail.com" class="contact__link">
-                    <i class="fa-solid fa-envelope"></i>
-                    Email Me
+                        <i class="fa-solid fa-envelope"></i>
+                        Email Me
                     </a>
                 </li>
-
                 <li class="contact__item">
                     <a href="https://github.com/charlottelai18" target="_blank" class="contact__link">
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
                     </a>
                 </li>
-
                 <li class="contact__item">
                     <a href="https://www.linkedin.com/in/charlotte-lai-386b86253/" target="_blank" class="contact__link">
-                    <i class="fa-brands fa-linkedin"></i>
-                    LinkedIn
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
                     </a>
                 </li>
             </ul>
