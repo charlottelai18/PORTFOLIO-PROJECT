@@ -20,7 +20,7 @@
     "image": "./img/to-do.png",
     "description": "A simple and aesthetically pleasing to-do list application with sound effects for task completion.",
     "tags": ["Javascript", "HTML", "CSS"],
-    "live": "https://github.com/charlottelai18/TO-DO-LIST",
+    "live": "https://charlottetodo.netlify.app/",
     "github": "https://github.com/charlottelai18/TO-DO-LIST"
   },
   {
